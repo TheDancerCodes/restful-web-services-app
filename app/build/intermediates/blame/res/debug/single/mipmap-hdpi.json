@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/nabwera/Projects/Android/restful-web-services/HttpURLConnection/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/nabwera/Projects/Android/restful-web-services/HttpURLConnection/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }

@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import android.widget.Toast;
 import com.thedancercodes.android.restful.services.MyService;
 import com.thedancercodes.android.restful.utils.NetworkHelper;
 
@@ -64,11 +65,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void runClickHandler(View view) {
-        Intent intent = new Intent(this, MyService.class);
 
-        // Pass in the data as a URI Object
-        intent.setData(Uri.parse(JSON_URL));
-        startService(intent);
+        // Conditional to check for network
+        if (networkOk) {
+
+            Intent intent = new Intent(this, MyService.class);
+
+            // Pass in the data as a URI Object
+            intent.setData(Uri.parse(JSON_URL));
+            startService(intent);
+        } else {
+            Toast.makeText(this, "Network Not Available", Toast.LENGTH_SHORT).show();
+        }
+
+
     }
 
     public void clearClickHandler(View view) {

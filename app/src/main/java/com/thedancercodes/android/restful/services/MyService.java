@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+import com.thedancercodes.android.restful.utils.HttpHelper;
+import java.io.IOException;
 
 public class MyService extends IntentService {
 
@@ -25,17 +27,21 @@ public class MyService extends IntentService {
         // Display Output
         Log.i(TAG, "onHandleIntent: " + uri.toString());
 
+        String response;
+
+        // Instance of HttpHelper class to get a response
         try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
+            response = HttpHelper.downloadUrl(uri.toString());
+        } catch (IOException e) {
             e.printStackTrace();
+            return;
         }
 
         // Use an intent object to pass data back through a Message
         Intent messageIntent = new Intent(MY_SERVICE_MESSAGE);
 
         // Pass data back by adding it to the intent as an Extra
-        messageIntent.putExtra(MY_SERVICE_PAYLOAD, "Service all done!");
+        messageIntent.putExtra(MY_SERVICE_PAYLOAD, response);
 
         //Broadcast the message
         LocalBroadcastManager manager =

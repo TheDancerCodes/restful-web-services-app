@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nabwera/Projects/Android/restful-web-services/HttpURLConnection/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/nabwera/Projects/Android/restful-web-services/HttpURLConnection/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/nabwera/Projects/Android/restful-web-services/HttpURLConnection/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/nabwera/Projects/Android/restful-web-services/HttpURLConnection/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

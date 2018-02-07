@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import android.widget.Toast;
+
+import com.thedancercodes.android.restful.model.DataItem;
 import com.thedancercodes.android.restful.services.MyService;
 import com.thedancercodes.android.restful.utils.NetworkHelper;
 
@@ -19,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String JSON_URL =
             "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
+
+    private static final String XML_URL =
+            "http://560057.youcanlearnit.net/services/xml/itemsfeed.php";
 
     private boolean networkOk;
     TextView output;
@@ -29,11 +34,19 @@ public class MainActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
 
             // Receive the intent object that was passed when the message is broadcast.
-            String message =
-                    intent.getStringExtra(MyService.MY_SERVICE_PAYLOAD);
 
-            // Output Results
-            output.append(message + "\n");
+//            String message =
+//                    intent.getStringExtra(MyService.MY_SERVICE_PAYLOAD);
+
+            // Array of the DataItem class
+            DataItem[] dataItems = (DataItem[]) intent
+                    .getParcelableArrayExtra(MyService.MY_SERVICE_PAYLOAD);
+
+            // Loop through and output results
+            for (DataItem item : dataItems) {
+                output.append(item.getItemName() + "\n"); // Display object names from webservice.
+            }
+
         }
     };
 
@@ -72,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MyService.class);
 
             // Pass in the data as a URI Object
-            intent.setData(Uri.parse(JSON_URL));
+            intent.setData(Uri.parse(XML_URL));
             startService(intent);
         } else {
             Toast.makeText(this, "Network Not Available", Toast.LENGTH_SHORT).show();

@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+
+import com.google.gson.Gson;
+import com.thedancercodes.android.restful.model.DataItem;
+import com.thedancercodes.android.restful.parsers.MyXMLParser;
 import com.thedancercodes.android.restful.utils.HttpHelper;
 import java.io.IOException;
 
@@ -37,11 +41,20 @@ public class MyService extends IntentService {
             return;
         }
 
+        // Instatiate Gson
+//        Gson gson = new Gson();
+
+        // Use Gson to transform the raw string (response) into an array of strongly typed objects
+//        DataItem[] dataItems = gson.fromJson(response, DataItem[].class);
+
+        // Get DataItem array from the Parser
+        DataItem[] dataItems = MyXMLParser.parseFeed(response);
+
         // Use an intent object to pass data back through a Message
         Intent messageIntent = new Intent(MY_SERVICE_MESSAGE);
 
         // Pass data back by adding it to the intent as an Extra
-        messageIntent.putExtra(MY_SERVICE_PAYLOAD, response);
+        messageIntent.putExtra(MY_SERVICE_PAYLOAD, dataItems);
 
         //Broadcast the message
         LocalBroadcastManager manager =

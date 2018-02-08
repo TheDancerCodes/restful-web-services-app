@@ -20,10 +20,10 @@ import com.thedancercodes.android.restful.utils.NetworkHelper;
 public class MainActivity extends AppCompatActivity {
 
     private static final String JSON_URL =
-            "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
+            "http://560057.youcanlearnit.net/secured/json/itemsfeed.php";
 
     private static final String XML_URL =
-            "http://560057.youcanlearnit.net/services/xml/itemsfeed.php";
+            "http://560057.youcanlearnit.net/secured/xml/itemsfeed.php";
 
     private boolean networkOk;
     TextView output;
@@ -38,13 +38,19 @@ public class MainActivity extends AppCompatActivity {
 //            String message =
 //                    intent.getStringExtra(MyService.MY_SERVICE_PAYLOAD);
 
-            // Array of the DataItem class
-            DataItem[] dataItems = (DataItem[]) intent
-                    .getParcelableArrayExtra(MyService.MY_SERVICE_PAYLOAD);
+            if (intent.hasExtra(MyService.MY_SERVICE_PAYLOAD)) {
 
-            // Loop through and output results
-            for (DataItem item : dataItems) {
-                output.append(item.getItemName() + "\n"); // Display object names from webservice.
+                // Array of the DataItem class
+                DataItem[] dataItems = (DataItem[]) intent
+                        .getParcelableArrayExtra(MyService.MY_SERVICE_PAYLOAD);
+
+                // Loop through and output results
+                for (DataItem item : dataItems) {
+                    output.append(item.getItemName() + "\n"); // Display object names from webservice.
+                }
+            } else if (intent.hasExtra(MyService.MY_SERVICE_EXCEPTION)) {
+                String message = intent.getStringExtra(MyService.MY_SERVICE_EXCEPTION);
+                Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
             }
 
         }

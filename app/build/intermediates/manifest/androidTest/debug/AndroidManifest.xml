@@ -13,7 +13,7 @@
         android:label="Tests for com.thedancercodes.android.restful"
         android:targetPackage="com.thedancercodes.android.restful" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

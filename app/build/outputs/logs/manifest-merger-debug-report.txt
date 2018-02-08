@@ -1,18 +1,35 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/548ef28e28395b9288edeb0f8961d1d0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/e8a603ef8776426bb3289f1609735e71/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/df5e605ab3293e96a122b0da031ffe36/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/edd3250b65de31324f57a76750901819/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/c7e321da08381ffc408153d467169fee/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/d8233cff3a28c1476bdb70d3bdccb771/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/5582a19a5033a4415f5b3f0a659a15ea/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/0d42f1a6015cc466788941b00802717e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/9a1e69f389e0e57b2577ce7b3c2c45ed/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
@@ -23,23 +40,32 @@ ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-serv
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:6:22-64
 application
 ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:8:5-25:19
-MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
-	android:label
-		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:11:9-41
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/548ef28e28395b9288edeb0f8961d1d0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/548ef28e28395b9288edeb0f8961d1d0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/e8a603ef8776426bb3289f1609735e71/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/e8a603ef8776426bb3289f1609735e71/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/df5e605ab3293e96a122b0da031ffe36/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/df5e605ab3293e96a122b0da031ffe36/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/edd3250b65de31324f57a76750901819/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/edd3250b65de31324f57a76750901819/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/c7e321da08381ffc408153d467169fee/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/c7e321da08381ffc408153d467169fee/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/d8233cff3a28c1476bdb70d3bdccb771/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/d8233cff3a28c1476bdb70d3bdccb771/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/5582a19a5033a4415f5b3f0a659a15ea/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/5582a19a5033a4415f5b3f0a659a15ea/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/0d42f1a6015cc466788941b00802717e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/0d42f1a6015cc466788941b00802717e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/9a1e69f389e0e57b2577ce7b3c2c45ed/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/9a1e69f389e0e57b2577ce7b3c2c45ed/AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:12:9-35
-	android:allowBackup
-		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:11:9-41
 	android:icon
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.thedancercodes.android.restful.MainActivity
@@ -64,20 +90,35 @@ ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-serv
 		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml:23:13-81
 uses-sdk
 INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/548ef28e28395b9288edeb0f8961d1d0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/548ef28e28395b9288edeb0f8961d1d0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/e8a603ef8776426bb3289f1609735e71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/e8a603ef8776426bb3289f1609735e71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/df5e605ab3293e96a122b0da031ffe36/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/df5e605ab3293e96a122b0da031ffe36/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/edd3250b65de31324f57a76750901819/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/edd3250b65de31324f57a76750901819/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/c7e321da08381ffc408153d467169fee/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/c7e321da08381ffc408153d467169fee/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/d8233cff3a28c1476bdb70d3bdccb771/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/d8233cff3a28c1476bdb70d3bdccb771/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/5582a19a5033a4415f5b3f0a659a15ea/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/5582a19a5033a4415f5b3f0a659a15ea/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/0d42f1a6015cc466788941b00802717e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/0d42f1a6015cc466788941b00802717e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/9a1e69f389e0e57b2577ce7b3c2c45ed/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/9a1e69f389e0e57b2577ce7b3c2c45ed/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/nabwera/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/548ef28e28395b9288edeb0f8961d1d0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nabwera/Projects/Android/restful-web-services/restful-web-services/app/src/main/AndroidManifest.xml

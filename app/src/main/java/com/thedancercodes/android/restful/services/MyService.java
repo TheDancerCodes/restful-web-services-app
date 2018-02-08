@@ -17,6 +17,7 @@ public class MyService extends IntentService {
     public static final String TAG = "MyService";
     public static final String MY_SERVICE_MESSAGE = "myServiceMessage";
     public static final String MY_SERVICE_PAYLOAD = "myServicePayload";
+    public static final String MY_SERVICE_EXCEPTION = "myServiceException";
 
     public MyService() {
         super("MyService");
@@ -35,9 +36,23 @@ public class MyService extends IntentService {
 
         // Instance of HttpHelper class to get a response
         try {
-            response = HttpHelper.downloadUrl(uri.toString());
+            response = HttpHelper.downloadUrl(uri.toString(), "nadias", "NadiasPassword");
         } catch (IOException e) {
             e.printStackTrace();
+
+            /*
+              Allow app to send exception information from the Intent Service
+              back to the Visual Layer
+             */
+
+            // Get the message from the exception & package it in an intent
+            Intent messageIntent = new Intent(MY_SERVICE_MESSAGE);
+            messageIntent.putExtra(MY_SERVICE_EXCEPTION, e.getMessage());
+
+            // Send exception message back to the rest of the application as a broadcast message.
+            LocalBroadcastManager manager =
+                    LocalBroadcastManager.getInstance(getApplicationContext());
+            manager.sendBroadcast(messageIntent);
             return;
         }
 
